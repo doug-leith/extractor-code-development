@@ -26,8 +26,7 @@ This archive contains:
 | Session transcripts | `data/dataset/output/sessions/*.jsonl` | 19 sessions |
 | Commit↔session linkage | `data/dataset/output/manifests/commit_session_linkage.json` | maps each commit to the session that produced it |
 | Documented gaps | `data/dataset/output/manifests/lost_sessions.json` | 16 sessions known to exist but not recoverable |
-| Pre-dataset-window context | `data/dataset/output/prehistory/*.md` | 4 claude.ai web-chat exports from 2026-05-31–06-06,
-predating the pinned dataset window and the first commit (2026-06-12) — the extraction tool's actual origin material (its directory/module layout and GPB-vs-PBCodable base-class detection strategy were designed there). Included for provenance/context. |
+| Pre-dataset-window context | `data/dataset/output/prehistory/*.md` | 4 claude.ai web-chat exports from 2026-05-31–06-06, predating the pinned dataset window and the first commit (2026-06-12) — the extraction tool's actual origin material (its directory/module layout and GPB-vs-PBCodable base-class detection strategy were designed there). Included for provenance/context. |
 | Project artefacts | `data/dataset/output/source_snapshot/` | `TODO.md`, `LIMITATIONS.md`, `heuristic_registry.py`, taken at the paper's pin commit |
 
 **Commit-hash caveat.** `commits.json` is extracted from the original git repo and commits are identified by hashes from
