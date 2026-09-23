@@ -1,0 +1,256 @@
+original_commit_hash,bundle_commit_hash,short_hash,commit_msg_subject
+0090921ba739de6464cd4443f935408c9077b61b,075741d23b794e5dd134600c38bcb6ab58f4b45c,075741d,Fix .gitignore: large binaries were never actually ignored
+00915f39e544a75888337bd7a0fd995b258465a5,29e9a8e52383e3faa35b9d8592d6016103f61e3c,29e9a8e,"todo: withdraw #48 (premise falsified), keep cosmetic residue as deferred #57"
+0154d77afd60d8c15daf3e8769ea0a2355f46557,2862cf11a1d48f1e0e2b11441f8c6103967a44be,2862cf1,proto_diff/tests: skip cleanly when reference fixtures are unavailable
+0224597daa61065121a495f5262c4fea90f18f3c,82c5d35cc8087f84fabd5f97d5ddb18bdb4645ec,82c5d35,refactor: rename macho_extractor/ -> apple_protobuf_extractor/; move LIMITATIONS.md inside; #45 -> limitation
+024709d4b0ca621f1d8d1d7bc17f2b168a5dad55,9ce5b02c13259ad16050c2d3e37203d77875f318,9ce5b02,"Cross-cutting cleanups: narrow a broad except, name two output-affecting caps, dedup a test fixture"
+02c44ab6e25beec10a7895dd35a04e7128040b95,230b9748808bbed6fc68fc13ba638d2d576a0719,230b974,Mark CAUTIOUS_PORTABLE_TRANSPARENT_ANALYSIS as done
+04401839ee1ceeaa96b5f89756e3634bf36ff64c,2c23d11781796ad2f2382d805f233e8115136c80,2c23d11,extractor: use arm64cfg.split_ops in the writeTo helper-classifier
+054540c6718e00da587482bb0994043863cd8e02,d581f83aca77d2e0f1931a6683b4ff22ceac8621,d581f83,chore: drop superseded ios_decoder plan docs; gitignore notes/reference-protos/protos trees
+0738985df13ea8231044174aef8b837ca3173560,a00dd4564928b29e301688fe7b5d6050b1a9c756,a00dd45,protoclass(#46): principled binary-mode name anchor; retire REPLACE seed -> PRINCIPLED
+09a3178b4e3baad555861f19316e028fd1bafacd,7aa876ac1446724e4ca31e92e09e63717ff3e1ff,7aa876a,poc(#42): lsr-only field-reg + drop redundant proto-arm edge injection
+09eef49424fbcc2ace550ad6a0dddc0cce1f0129,96b5fb1a6bd545cd3e49bec87e224661be892be7,96b5fb1,transparency: flag singular by-value embedded-struct fields emitted as bytes
+0a3d16f26fa564a85e254fc5b51372451ccce05d,5158baf7fab5c3e6d0039e84b9c5e9ed3adf15d8,5158baf,refactor: decompose extract_proto_message's per-field loop into named helpers
+0a4924af2cad6af13821436fb23b37d4b738b29d,598ce10261bd34fa5025eb374ccb8ce517767b28,598ce10,proto_diff: move into its own package folder
+0b6f2592d3c4f1d2d920188ec2bdf93e5d4499a4,e3ecb046e4e4e3a737c505b5d9c3e298a2c2aa4b,e3ecb04,#11 step 5a: carve runtime config (prefixes + enum-debug sink) into proto/config.py
+0de7e7d67e03c224b7ef4d7b81323c3d1af4a9cd,8a4bd9862084a5f65ac082dcaed206a3393563eb,8a4bd98,README: add ios_decoder as the fifth tool
+0e9debafaf338647b527e996fa1d13975324ac4d,779d2cef4ee9aeda6502b62880d8f52432e62380,779d2ce,macho_extractor: repoint reference-proto paths at iphone8_reference_protos/
+102b05da5ad5de236b0aa334ac88371a2b52d31e,1ca7ec381790736914c69d1505851709f7578360,1ca7ec3,swift #63b: defer integer-subtype recovery as an accepted limitation
+10ceaec3814ca9f46e5e1cf24c6be8966e3fa9f6,5c5f7265fad5d26c5976c9f1366ee743e4115601,5c5f726,enums/repeated: adopt the arm64cfg operand toolkit; drop ad-hoc adrp/ldr parsers
+11c459d311c223d93df12e26061bb96d66460a3e,ac8ae513117ae8fe1d6769c9163ce4509e1dd207,ac8ae51,SPARSE_ENUM_REGISTER_COMPARE_FIX
+148f9a52095557715995b35cd836fe1f6ed3ce1a,87618c8377018db8f999263e8abb25511fc2e34f,87618c8,Replace no-symbols fallbacks with an up-front error/warning gate
+14ab51db3989d58279fb404d96b4cf8470158810,f5601d3fa26ccb908557c17764591b5cfc9557ae,f5601d3,geo_traffic: functionId -> message identity table + identifier (Stage B #1)
+15cd37c4cba667a0f454adbb93929b4e158b5629,18435e2a82ea416d081a8c2d0ff40a21210055a3,18435e2,"proto_diff: docstrings, function-boundary splits, portability/coverage hardening"
+163b2c4dc6ab968ce2d10bc300473b460c950b6d,f08dfb5c4604da70715116c20baf33f1daef962a,f08dfb5,notes: move TODO.md into notes/ (complete the relocation)
+1707d841a4a17a40428fe1ccbbb0e0a082056af5,2f4a2e2c444ffb6da0eefa6275cb70d0ef109826,2f4a2e2,test: add MACHO_TEST_DPSUBMISSION env override to the DPSubmissionService gate
+171eaca2a61370c4619004a98521b9229fc08b1b,76f16bc6125931ba135e0a987333cf195a68daee,76f16bc,TODO #40: replace _DICTREP_MAX_INSNS budget with a function-extent bound
+1771d987556a2c32018f2f365f2f2994de67b49d,c9935959d7a7482ea9c19df4aa9452dead1cd029,c993595,Dedup ctx lazy-cache idiom into _ctx_cache helper
+17c60264a7bb52f270944a01403f382edcaaf3c6,a82795061aa12fe23566cae2720fe714b54b7a96,a827950,emitter: de-collide reconstructed enum names against message names
+18415caf5f63dd2f0695caadea580145d58e75bb,2eb4c8dfadc56fab7ef67e7a49d4fcb1c1bf6343,2eb4c8d,"heuristic_registry: deep-scan audit — +37 rows, 2 label corrections"
+185036596a42ec76ffa5119fe4eef398cfb8508a,1192da53ec7a8b8447b34dc55631023b89bf470d,1192da5,docs: mark #11 monolith split complete; record #10b finding; refresh writeTo-swap status
+191e1024f69a507fa80e503d42e938fc7d9a568f,3b5bb79f119d32ffd964dbac7d9072265826764c,3b5bb79,geo_traffic: co-locate tests in geo_traffic/tests/
+19fc70c87aec8b76b030e36a731d20e3fd296098,75fe514584ff55d6671c3961d13204cfb3b9a8ae,75fe514,proto_diff: drop the unused llm_prototype.py harness
+1b42aad548a7bf36b178ea83307a7c850ba8c616,1e53720dd20555b4df1982646e7ca7a015ec9c0d,1e53720,Document that enum type names are reconstructed (and harmless if wrong)
+1b59e00efae61df3c1a0b439c3c8df8f37f08dd4,311ffb78b94911cdebb74a8348f1bb736b39f1d5,311ffb7,refactor: extract verbose diagnostics out of DyldCacheReader._load_subcaches
+1b60c1098d976406564e439de00aa6a20eacde8f,ba0d2053550214058f7ad3376ff64722fa5a846d,ba0d205,writeTo walk: match w/x register views in the hoisted-value tracer (+5 first fields)
+1c698daf80c6df20e736cfeedddd3039ce17bcd7,e1ccf8868f7f29e79ae8921e4da34c50d2924be4,e1ccf88,#59 cap-sparse-range: reframe _SPARSE_MAX_RANGE as the 12-bit cmp ceiling
+1cc59945c9b2be3c02d1486cafc24ab63873eac4,24ca614151b986e00087984e9f452791f31d997d,24ca614,heuristic_registry: clarify protoclass REPLACE rationale + REPLACE-row taxonomy
+1ec059ac8ac1d399848ff9f96f18fb26e08a5530,b90cdb6ffac05e59e457a678a6ea04d6a180d72a,b90cdb6,config.py: drop module-global mutable state; thread prefixes + enum-debug writer as params
+1f2cfb0dc47e83911b95b3951bcffc27448c786c,51128f1d4d3eb91d67b1cdff12afb22bb3049f0d,51128f1,#11 step 3: carve the readFrom dispatch mechanism into proto/dispatch.py
+1ffe5d7c0af69ede0259de05c3686e320c71619c,1021d73bbf30f1e1068e277a7c88da1491710a89,1021d73,swift ground truth: expand hand-verified corpus to 4 frameworks + regression test
+21615ef5d75fa571e22dc018b751cc4c15dd9f14,bc3b0da3ca494150b3064158651bd258f4ba2ccb,bc3b0da,"writeTo walk: capture late/adrp-only base regs, thread base state across blocks (+49 fields)"
+221635199653fdbbe25b87b7998712ad219f8d0e,54b4ae198487eea503ebbd11bead92b3851894df,54b4ae1,refactor: extract Mode-B/C enum-debug record builders from _collect_enum_definitions
+22843555a63294534de9f7fe44b8dd79b06ea51d,e368a6b9645cbd76fb843a5654d156f244b971b3,e368a6b,Add requirements.txt pinning project + geo_traffic deps
+232382459979afc52f307e0669269fb15cba8b5f,ccfbb56b74851af2c6dd52c755982154499ecae3,ccfbb56,"feat: resolve the relative-selector anchor from documented dyld/objc fields, not just a byte-scan estimate"
+23255c9142f548e17a7d1a3cf37079fb8646ace7,76b64e65f2f47cec59796f8c8575f07882bbb388,76b64e6,swift: detect Array/Dict mangling prefix from raw bytes (#69)
+23dde4913a189e9b97a93b896d7d96da9d81c04d,a1b62d1adbe695258999e47fb24c3bb1d6f0ec54,a1b62d1,cap-stack-scratch: reaching-definition of x1 replaces window=5; retire last cap REPLACE
+23f3e4f9ceba3cd4a4abc1637c338ccb0a456fcf,9dabb065ab4d23b29e3f6004ddfa352652eb3b13,9dabb06,test: add opaque-passthrough detector live tests
+242e35e5efcfd441ec4d1b89edfb649814c7ee0a,6345353416cb737728105bf08cd9c258c63169ed,6345353,remove the inert pointer-table field-number path (dead since the writeTo walk)
+24b602275d90d72015377171e3b5b23c75c260e6,53c461cc22f28e0020a466b451650226eacc4f83,53c461c,#11 step 4: carve repeated-field element-type resolution into proto/repeated.py
+2507d871b3e126a9c18d10bb5b349ca749292b0c,714d44e996f5f19dfe6c873e333be1aa2409b9c6,714d44e,Phase B / B8: CFG walk is the sole writeTo decoder (delete forward scan + budget caps)
+262b3507b1c8cdd5ac1f28c478ee84e67dc06da5,12393ad2430c6581258ecb8c36fe3b4d77b08b2d,12393ad,test: register tests.test_opaque_passthrough in the run_tests.py module list
+267f3a17a35f87946c931159bd1aa91392abea76,d239acf0203a33793e5ad187b482e0ef93b21c15,d239acf,geo_traffic: Stage A capture pipeline for .mitm protobuf/ARPC traffic
+284e018d11427e2b50909bf94f76f135d77746e2,f6de32da154b796188abf693ad8de4fc40278387,f6de32d,"refactor: unify compare-chain field attribution on dominance, retire the address-range decoder"
+285c9011a800b443d0a9d05a67c7c959c2ed1767,e5d8228722ed1e02cb7dcbf7d4105e04b7a6fa82,e5d8228,Adopt pytest as a runner; fix dead TestBinaryContextFromCache fixtures
+28eb8ea971879087b45bf5a4d3f5ecab8a24afbb,e42ddab33e2cc61c0f664b1e1e692d0f71fe6e5a,e42ddab,proto_diff: consolidate imports to module top
+29bdfc0056d2a8eeba50e6ed4159cd6313bb5bdf,fed42263c7a3c330b7acd981435463f7f7b9bed8,fed4226,docs: flag encoding-ambiguous int family + output caveats (code comment + CLI help)
+2b7078a79d63adf0c1b5d806a81c8c538c17a655,fb9647f6e19322349f1b809fe443fa5ebfd9d39d,fb9647f,enumbase-regguess: remove register-priority table-base guess; retire REPLACE
+2c4f62302532c343236d970a62de74b46e0c13f6,a91feeb446a14c791896c688a96d8a756abd55ed,a91feeb,refactor(P2): centralize ARM64 decode constants in arm64decode.py
+2db4a26eefef4d5491b18b0013a692b900a5c958,34d2d3db888f0397777bbe208bf52ba13b9b9fc4,34d2d3d,poc(#42): general br-table CFG completion fixes jump-table-hybrid cores
+2e8f4ea6ba64a08061c7a2fa03e161fd47dc8442,feae699f35b81c06dbef3565f956458d6e4cfc32,feae699,#60: principled field label + admission — storage-shape only (drop name-shape heuristics)
+2ea701272979131cc73a634e6d62f51ba01c0f89,408961e849dc5dab30c98657af2ed0652ea57e64,408961e,Note that _is_valid_enum_string is just a sanity check
+2fd6ec3d396ff90f1a4a409963614b98ab073a95,078376a3016064ca302b7c717a98f470765db658,078376a,"proto_diff: make it an installable package (pyproject, smoke fixtures, version)"
+305ab7a579336e38cfd50045e60f58a6f04809f2,f71fcf94acea8b84fb81382a9cd413667813a3d3,f71fcf9,doc: refresh REPEATED_BYTES_NAME_RESOLUTION_FOLLOWUP + promote principled resolver to TODO #39
+30633343948c2eb4aa4f6f33303acbe930c704fd,a06a6a46057d1432d37044f49a12c1677f7225c5,a06a6a4,poc(#42): standalone readFrom CFG/dominator resolver oracle + plan findings
+3157b8f7b2c039cc3282c4ca9440a8b8eec5e84c,1dfcf4ac0e0c16f362b464ed0b60941050d58d03,1dfcf4a,swift-protobuf: recover message field names+numbers (3 codegen shapes)
+328410db3fc75688bfa54c22d78583e165f57665,d5deb5bfbc26a98d9ee87113ad2b22f668c4ae6f,d5deb5b,"notes/registry(#42): mark DONE — dominance landed byte-identical, degenerate-partition deleted"
+32e0b701b6c53f330cfe28ce2f5d4baa49183752,bbe9589043f79d4aeedf3c882c66fa2de18a1c1c,bbe9589,notes: merge session + project to-do lists into one canonical TODO.md
+33cf72ed27974ca432aa51bc2b6fbc5e7a05d0e7,d24e5552c4d948da7b87fb685269880503120317,d24e555,docs: correct field-0 ground truth after full spot-check (#52)
+34c31792baa3e0d43eb2a7254183795b8c5f20c9,3ab314bd1df58b6b66d92cbce54c5581ba717dea,3ab314b,#44: recover fixed32/fixed64/sfixed* from the writeTo helper
+3862f15b339eb9dafdbadb0ab25ccb3b67c10f07,5f0efac71bdec45911fa73b7c5de8fba47506ea0,5f0efac,proto_diff: expect the renamed apple-protobuf-extractor distribution
+3cad2bea526aee3f69012d67995b1c5e08cb309b,a2506a77fc6899cc1ca5ed3cbaaf71126a87afde,a2506a7,notes(#42): faithful PoC-vs-extract_all sweep result
+3cb2bc07f7faefb2478dc94e3b1ed998b6df2ff3,f8e010646343e1f97f4f1b6e8ebce0ceffdcab7d,f8e0106,docs: defer #50 (proto subclass field inheritance) as an accepted limitation
+3cfb3ef622a5d609803e22bb420d87ed983021c8,fbad307338ba3c9b56abee07ecf54165cb6174ce,fbad307,readFrom(#42): dominance attribution replaces address-range; delete degenerate-partition guard
+3ec9a792e29de98da54e17b42ce96f65017aa0d2,4aa4f8e572f56a7cad6493f0032760af9f302dd4,4aa4f8e,docs: add PBCodable wire-format explainer + measure protoclass heuristic contribution
+3f1a6dd39e6e83151b7277a8ffb6b285c54a5083,db849b984bbe87c326e7a41de448e790b733bb88,db849b9,notes: add TODO #42 readFrom CFG/dominator resolver plan (PoC-first)
+411c8ce086175a6b9a8defb16f6ab709e0e4e20f,30d7bc6e80d07ce7ebd106ef9f7ff4864202063d,30d7bc6,docs: consolidate apple_protobuf_extractor's own referenced notes into apple_protobuf_extractor/notes/
+41f41f4960b8d8c6d702331f2f1370cf3373a636,288a6d099f94efceed9b6bd46e16b8c034f82b8b,288a6d0,heuristic_freq: trace all proto/*.py so the registry overlay stops reading 0
+42878fcf39973a0d2ec907662f9434f2692cb176,52977b9df262fef3601be7ae3e522c9b94df8d1a,52977b9,Fix two regressions: #46 synthetic-class gate + run_tests pytest fixtures
+47d47dbe70c3bfa6578029e9cbed1ad5ee34cec3,dcdd0e35361b54beac006ba0b696b4a6c785f371,dcdd0e3,refactor: extract _resolve_dispatch_context + _emit_mode_a_debug from extract_proto_message
+48c18fc9b9c43275bf6402206b8c8fdae1dab35b,edd85054dee8b026df8e6131f26c3068012e14a6,edd8505,TODO #38 (sint): recover sint32/sint64 from the writeTo: zigzag helper
+4ab550a342cfba02c18e77a4c76371dfa9256a58,c01c3fe0964bc15c177077e05dd51d36ec201eb0,c01c3fe,Document packed-ptr scope: ex-cache dylib only (binary mode)
+4b022add6dd9454efb0f1929d11773aa5fb90f6c,1018fd577f51ff04db64f6eceea7739beb425d46,1018fd5,proto validation: full discrepancy adjudication + classifier-bucket glossary
+4c44967675ea01c3b87433c05af96c3503541a74,8d571cc2fbf9a4a674e2a915dd42fab64574bfc6,8d571cc,Phase B (a)+(b): close 11/15 walk misses (output-neutral)
+4d0ba1a5598797785a6b7f2a0c4396d494f01337,f29ffe8aad3c9c1f52c154578d6cd64cc0155f86,f29ffe8,proto validation: full Hopper adjudication of individual type disagreements + MISSING glossary + TODO #37
+4dfd191131a08bdeb6ab2c0102c826e081bb4aba,1c05a7b93b8be550f44b6aab8404ec16b53d14e9,1c05a7b,writeto: resolve PC-relative literal ivar-offset loads (binary-mode field# confirmation)
+4ea594735a00ac4c3ad8b7720818338d072da742,0b5c4510042822c3b48c2545ec32c50d76006337,0b5c451,#2 (first batch): synthetic unit tests for dense decode/naming heuristics
+4f5a7697573e720fdc0e8b6235d02ba24a9c2dd0,0dd55b5cafd5a78f91c4d5b0d1dc1e54309936fe,0dd55b5,chore: rename distribution from macho-extractor to apple-protobuf-extractor
+4fab8ea492b5de10e78503d6424f87868a2d757a,9f08ffe8eb7248c2e6b3c3cc0c4c8c7142833829,9f08ffe,"#59 cap-ptrtable-512: route enum extraction by structure, not a magic 512"
+50836b569fe820080ff3b18b8b101d822faa5af7,8a47ffac44afc2b066582ea359c03409ebf87d6a,8a47ffa,heuristics: land cap-indegree structural bound (#59); mark the #42 cluster
+5155cdd3166098212a04604dec799392a9738591,2bad9e6c3b976a6c475a0455a92b5776aa0e23c1,2bad9e6,refactor: split cli.py main() pipeline into named stage helpers
+515ba078cd567fc9f2c0eaf3174a2a89537c8d34,f1f3236246f672bed6ffbe27ea22c5ed01d9ea93,f1f3236,fix(detector): tighten _is_proto_flags_ivar to the flags-struct opener
+52367c81553ded0c4d729df94bef7adbdff03b80,a3ea26e8a21309b71c2ba8e4c3ac606a02a55076,a3ea26e,fix: decode cache direct-selector names from the 🤯 relative-method-selector base
+52cceee60ee58c29810d7534ab0c22a632776f17,a69f8ac063694280bf2af840f295c6dee7a1513b,a69f8ac,#47: jump-table enum table base from the scaled-index load (REPLACE->PRINCIPLED)
+530db9efdeb105a7a91abcfe69e994c69d93c131,521b178c8771525e6433ad089fdc9a21f7c84ca2,521b178,cautious: flag swift runtime-_NameMap fields when the builder read was truncated
+53d71753a4e3b5d071e486106e5cafa983d607cc,0c0d906ba7577bec2fdef0333f4ea042660eead0,0c0d906,geo_traffic: wire-vs-schema verifier + tool .proto corpus (Stage B #2)
+54a2d8cac370f29e1f10b6ebe826ba00c8fcdc52,adb8747f0acd3153919247643d1cb2fbe0975f45,adb8747,foreign-protobuf detection + mitm textual-CT veto
+54fcc31c450a17d94a33c335b21568a34c1a8b56,9fdb74dde9bc56e7d625f7e7237e6ada6085bfaf,9fdb74d,census_enumname: fix module-namespace monkeypatch so the census runs
+55c23fd30cabc8792d21bd4bc66547058eeb4907,5bd2d0a63742d949406402c0973ed2a3a508582f,5bd2d0a,refactor(P3): merge the two sub-#imm12 bias scanners into _sub_imm_bias
+563c05e2dba48334d9f72b09eb37afaea8f33bf7,552f439d7dc9e46c044afd31921e5b3f97f63604,552f439,"docs: correct geo field-100 case — opaque PBUnknownFields passthrough, not wrapper delegation"
+5643cb77c143c638520ed282017a49b793ea5449,6816f54488422397e6c9717d4a6a291a3af0a845,6816f54,chore: retire find_protobuf_for_url (archive + untrack)
+56a1280906a9f7c717cba89cdd9c81497d2f0b85,e37fdff046516134b07873ccf7d722dffbe61ab6,e37fdff,enums: split the sparse-enum jump-table harvester into focused helpers
+56c0e9c5c4c6e8c4fc65949a29c60fae1fa659c5,76da166014002a52693c47da9f7608166decb277,76da166,Add adder→ivar lever: bind repeated-message element types by ivar
+58d6f0bd6eba0a2f44049d918678164fc71bba26,6204ededc0947d0ec84ee032ffbdc2c8134b1fcf,6204ede,"notes: track #58 (jump-table enum function-extent bound, #53 residual)"
+5923e620de4e314445f2f5d20cef7082e6302f63,c1310096b7dd8ba0328082738a4b3850731c27ef,c131009,"notes(#42): PoC fixed for jump tables — pre-swap AGREE=400 DISAGREE=0, swap now viable (plan 8g)"
+59a9c489c03d321373e3c61335e35c0f1111ba63,db4200dd234a78bc76a455eb7d3bc5c480ef0447,db4200d,Annotate (don't drop) unresolved object ivars; remove the casing heuristic
+5aad3630f21eebac6a84d0d7d1de448c1572cda1,9224ae16018cd0e62e6074848d8fd4197a8c5679,9224ae1,Consolidate the proto extractor tests into tests/ (step i)
+5b434482d2e92416ebf452e0d8ce9849f11c2158,f7b08d0f9250e60e0cf3f5ea91f2efa4ae312860,f7b08d0,Relabel naming heuristics PRESENTATION; document reconstructed package name
+5bad7c9f86fc5a5b431531166bba2cbccc521d65,88a92ff427c5cc9b6126eea7cffd3adb5cbb23dc,88a92ff,Disentangle proto.extractor imports: stop using it as a re-export facade
+5c7b37b3bfe694d5b66a6f42af5e44d35641f09b,3bfa742c1a827c0c9bacdf8c187566edb4528fb7,3bfa742,enums: bound xAsString: jump-table harvest by function extent (#58)
+5eef41bbb35f40bf3cf49b9ec088b06ce8d5926d,62d86d19cc596b5aa33f63ec966d28a80ec054e0,62d86d1,proto_diff: refresh README for the submodule split
+605688324a770d503b51f115d6eec813bd1e4dd2,e87bdb9df6bc0eaacd78140ef89c51303884d5f5,e87bdb9,Retire mitm_traffic_parser: untrack + archive
+6122d84c602b6e5824091361e8be3c5dc1f55a5e,8df356f651b86e9fe0e7dc55d5ba4885fa888781,8df356f,proto_diff: move tests into the package folder
+619fcb2265bbc3818e8cf6b6c0226c55204c82d4,bce90e90f9ef69a95c171fbd70f3509fc186ad07,bce90e9,#59 cap-detect-context: delete the redundant prologue base-register seed
+64949f3e2bd6e89edd738c85510ca54faf67ba38,090170c29fa3ead344ffe249caa100b31b1ed117,090170c,Tag _SPARSE_MAX_INSNS as tier-1 AFFECTS-OUTPUT
+64dc60beace2d299090c1029ff2d667f8e38781d,c244c9567614a0ee2bda42a0c8a55448131b0af4,c244c95,#10a: replace the _ADDER_MAX_INSNS output-cap with a structural first-match
+65365590d0b16caf1a79219a2cd6ed6b63476429,fe34fdf2fb2a95719b9209bf5a0c2975733ab959,fe34fdf,"Surface unresolved field types in the descriptor (enum reverts, repeated bytes)"
+65677e2815913689de617a82416fe4a084c8ed01,b638ca52a7a7c84d9be49b3baea1d754bada9612,b638ca5,style: trim excess blank lines in proto/dispatch.py
+656e925f9fb98637b3086acd7e89801801c89c3c,f33336b918d999bda5c4c367044dd22a6f2fd7b2,f33336b,robustness: don't let blanket excepts mask our own bugs (re-raise + log)
+65a8e42dc7637ba19305aaa08a75d8f360874268,8885c40a49e8a6907e9fcf6ab2427d443b268712,8885c40,test: golden + snapshot coverage for opaque-passthrough messages
+65e3a5407b77943d85cf32655c7e52d48f5d3864,8aeb12cd41fac4f9a11572828e583cf9b3c5b701,8aeb12c,polish: fix stale registry string + add descriptor-decoder fuzz tests
+65e40a2bdcd3ec8e6bd80e8127aee52bfd25c7c8,86b5954df005def6994c0a7f50aa1c94383c9caa,86b5954,enums: recover comparison-tree (idiom-B) jump-table segments
+661279a3e362cbbb6008892a1d025201616b4eb9,657d91524357fbe523669a2986ed7405babea77c,657d915,Remove four dead heuristic-registry rows (no-symbols cold fallbacks)
+6634d0983841d43962b6c8126755b21373ed5798,54c2a120f84d2f1802eadf1b581583f759f61e0f,54c2a12,Heuristics/caps transparency pass + repo tidy
+6656c9c9ca6018074a433f44a58317442730e0b9,26666856513552b7ec0e1ad1b1d52d74e4587249,2666685,"Fix compare-chain dispatch: attribute fields by control flow, not address order"
+667e643e51530beaa98f13beba89a27e97f11824,be2e3771f29d65bfb89640d09d9e3cc64cfe7f34,be2e377,"Read enum strings by section dispatch, not trial-and-error"
+66bd4431933ffd8fe904f09a83e8dfb844330afd,f46c3f52bf33432377dbdb6a803aee460887808b,f46c3f5,#1 test realignment: import moved helpers from their real modules; shrink __all__
+6700937b3e41db46189e49c48e97d1eceea7c403,43446c2f2b4f61a2230dfbb6c39aacf79194291b,43446c2,swift: recover COW _storage + oneof field types (#60)
+67df5adc8576ab07c6f9f45837b48d44c4e0fd55,0311ae22acde487947dfb9b6595805f8ab29d613,0311ae2,refactor: centralize ObjC struct offsets + dedupe the gt cache loader
+68987e972bd407d1a6a9cbb50df731cea78396e4,3b0f9b2a09a325c2ad9ff560efd20f061b4d1a3c,3b0f9b2,mitm_traffic_parser: relocate captures to iphone8_data/captures
+6b506383dd008fa00ab6eb7ae8383ce8758dee8d,715c08ec117243a2040a76000e6afc9bc0673522,715c08e,Remove forked writeTo prototype + stale oracle; unit-test production directly
+6b8f2c4ae63551350400316fd38b6276119d5a10,0a053846ff79ba953988974d3e4e56c533de3dd6,0a05384,extractor: document map<>/inline-struct/delegated-field as accepted limitations
+6d48e0dd20eba12308f53f8235e788b05c42b999,558b11ed85b2745af65671483e0d9d97783af259,558b11e,harden(detector): system classes are never a PB-cluster root
+6e4424c8692389eb0b4d6d5f724aa0d463a0d1d3,bc25eeb6d47d2b0e303bfb57464babbaeae0c9f3,bc25eeb,"proto validation: retract version-skew, add geo1 regression check (no regressions)"
+6eb006c8c18899af238dd861c18115455b4d3186,1cba56b3912fb0ac952baad7f3e96b554b0732cf,1cba56b,#11 step 2: carve the proto-class/ivar/type-encoding kernel into proto/protocore.py
+6ed71b8f20a8b1a6e729b8afc899dc8add7de7a3,2c163272834874850c1ebdc1569f969520df3dea,2c16327,urlproto: new package — URL/name → req/resp format + protobuf finder (M1–M3 + dispatch tracer)
+73da205bb505792b130df8a91049a9924dc7a0c8,0e986a784dfb1b473026ec98be458b840a6f2910,0e986a7,"notes(#42): correct verdict — regression cause is FIXABLE (general br-table CFG completion), parked on cost/benefit not feasibility"
+73e57b9232c817e3e8995b7e0337003006c3c873,2d018f28c9ab66973789ba9fbafb811548442797,2d018f2,docs: record #15 test-suite realignment done + re-import shim-trim follow-on
+750740f1b207dc6ba7bcd114b10031556443d1bc,799093cef9755bab284b37191a1c68810d681422,799093c,"gitignore: ignore .mitm captures, geod binary, out_* output, coverage"
+7519a680afd3aa0bc5087d5bbac84ae679ca89b1,ea701410acbbfb865141b11156d280b03d220d5d,ea70141,readFrom #39: resolve repeated-msg elements via thick-wrapper→compare-chain cores
+755954e42191d39c5e5dce542dff49970cbde7c4,d00e3c1575930f1537a4dc69c85b5e5cfe865732,d00e3c1,notes: retire #54 and #58 from the active list (both DONE)
+75c13ea2107e4a1020e9772331a0912a2b50339a,6f82471acc2eff2e1b55a236186a89e5062d55a3,6f82471,"swift: recover runtime-built _NameMap field tables (#72, #70/#71)"
+784998404c0a1f968ba2ed1eedd105a93179190d,ceb2793a11ffd1ec1c6232018193ce01f8ebabc8,ceb2793,swift: flag undecoded container-element bytes fillers (#67)
+79ad27c0e2458b54da73eb378ed255ce27f37c33,38d23e69fb39a91866bb4cbc8406535627f237aa,38d23e6,refactor: extract writeto_walk's worklist bookkeeping into a named LazyWalk primitive
+7a1f7562f9e4e065c698876757f4a889674eb8c6,1416ef073280bea7fb604b1822f2e6f07978ac3c,1416ef0,notes(registry): record protoclass-seed scope + the principled alternative
+7a8839c207d448b007d48cb73b166a6a248337e1,05123309f5b39ba9de467ea122277c997ac85457,0512330,proto_diff: add README documenting package layout
+7bedba476ac0d9c46a86b606b698214a41deb7b3,655da24ac6c2772cdd76430a959edc575dd80bd1,655da24,Phase B / B7: walk captures its own _out_helpers (2 type improvements)
+7c6e651e645ecfcddf5a292b17712e06e3cf77c7,c3b3ab7d5f02a67c226c4e73a35708493acd6121,c3b3ab7,swift map<>: decode run-length standard-substitution (#66)
+7f4c007c7cfd3c587b8fd57e8ba43df1dde167ce,1a3819e6bf7f05cef76b2c09890398f9df77c743,1a3819e,"docs: refresh the four READMEs — accuracy, cross-platform, front-page ordering"
+8000a2db746239d5d21c0a4fc2ed5fd8d211ceb1,994c9ac45d2c64d2c9addc12715e9c182acfa9b7,994c9ac,"docs: requirements.txt — full-install floor is Python 3.12 (mitmproxy 12.x), not 3.10"
+8157052cd4db97e6c71a3230f510e5ca5d33beb6,7c1f01fb8fdb62a1f2b023586ab610de9d6ca2db,7c1f01f,Phase A: merge CFG-walk over the writeTo forward-scan decoder
+836992d6f8836ae8a235d08506c7e5fed5271107,517aca400008682c01c4feccddcd99e23af2187b,517aca4,swift/C++ protobuf: field types + cache-native extraction
+86995ed86d2f25a579809edd900cd05cbad97669,9a200365af93c4a4a7868f0e4b83d601899aa972,9a20036,Move auxiliary dev/diagnostic scripts into macho_extractor/
+8778e605104bb16fb08e578a267544e6077999e2,837da717c43d99fd649bfe5a6afe39f57bc76949,837da71,chore: remove three dead-code items (post-review cleanup)
+8c38dcdec7e14cfe9af8aa216a9a04ed60efce04,8221f365cf94130ca002cab760f83517b1f767f0,8221f36,TODO #41: note these map fields are the clobbered-self/sub-writer classes
+8c8c4bae105ca73303e3b0be55468e1e163ba615,f69572b9aead5b67a15c9b7109997c40e7bdba62,f69572b,"build: refresh + relax requirements.txt (stale comments, == -> >= floors, python note)"
+8e5da8de7e017ae29bdf705fc04ce6c708c71373,b7ca49c112dd1583d41c36e54d474b60c3c15904,b7ca49c,refactor: single source of truth for the jump-table count-from-gate convention
+9003673661f32cf71291734c1f3a62f60b3c0da0,681f3cded8db9141b76718269ac2d4e5ff6406ce,681f3cd,ios_decoder: add README; add dnspython to requirements
+91dee87853488f39bb85eae4e64f109a27d9b4c9,694e5c9282ed57cbf2fae4517460fa3c13f4f486,694e5c9,#11 step 1: carve pure ARM64 word-decoders into macho/arm64decode.py
+9343e59b0b555c5f4114d662213e468f1ecd8cb8,d2630b53875d55fdbaae08e5af2620f6462a85ab,d2630b5,emitter: make PBCodable enums valid proto3 at package scope
+94823ca279e2ba70ea2e1c22472ff4fbcf1b0157,32ae4edfe3f83506aec1056ba32a4a5cf5469e0c,32ae4ed,docs: #3 except-guard fix landed (§3 robustness)
+96593734cb9292880a3604a392ac03ca95f29399,2e00e035fd455392eaeecb3ed32f2acb1c99d890,2e00e03,geo_traffic: Stage B report/CLI + aggregate (all-level) coverage
+96739d83429d3664526706e4297be945392fb8cb,066773f830c55109966f10223418c719d36448c2,066773f,"tests: cover new foreign-protobuf code (cpp extractor, swift parse, symbol iter)"
+96ae1c8cb0efe5c4fe2864d47952493d20867e9d,876b8311476cc45dff2feec1d8e814692c2fa406,876b831,refactor: add _is_bl_word; route inline bl/sub decodes through arm64decode
+96d2126e9580ab98a2e5d5ce774563f798d6ed72,6c6ef1d8251aca0785a1797c984141dda5a593a7,6c6ef1d,refactor: carve the relative-selector-base resolver out of classlist.py
+9722e40f2b650ab666328eef86c30edc27e01e5a,df1789d7fcbb7f47f6aef293a9710f05666a2e08,df1789d,#53b seg_incomplete bias-gap: Idiom-B materialized bias
+974e2f29088c2095b91be7aca1c6a183cf7c79cf,e547e6f9c0d098549c4a882b33a3eeec73e57c0b,e547e6f,multi-serializer: decode C++/swift protobuf into unified output + --list-serializers
+9790d99a6d3489c2841ae48707748c2f437c8b0e,9300da407ff8473a549be37f5f50c547f7e91c43,9300da4,feat: flag heuristic-only proto-class detection; add opaque-passthrough note; ignore build/tool trees
+98d5996be88830ebc0ee6b77d058a80feb10a80c,ff2c4c76cfdbd695135194c6b10d2df855e43669,ff2c4c7,TODO.md: #38 sint done (edd8505); fixed* -> #38b
+99dcebe12457dddb2302a0bd92bce46a489ea698,69b899405e2372a8877f4b4342866042e76984f9,69b8994,Add proto_diff: compare two protobuf descriptor (.proto) files
+9af688924280da00029a56f3ac0187b2309faa0d,805028a5135682d93e5ea719aa94f0d94f55ef25,805028a,proto validation: 3 more Hopper ground-truth checks (all manual-ref errors)
+9bb23ac7f1346137d6b050d7f1d9132ff66e2164,2b7a7f0a597975ab1f35944b9bdaba013d343e11,2b7a7f0,chore: gitignore proto_parser (eval-only tool) and ios_decoder/comparison (capture-derived fixtures)
+9cb741a927b4025fcd9a86e489d047e451c967f7,77cf002b90ae90d0d60d308131bfc88aa558c029,77cf002,proto_diff: point reference-proto fixtures at iphone8_reference_protos/
+9d38faae0c550f0d2322b9cbbb1874a8e9548854,3c22aa157421ac7588ffad9d607978b15be8a046,3c22aa1,Move the CLI + helper modules into macho_extractor/ (step 3 — migration complete)
+9f2ee128915e34c9e6a4236cc0add68ee8d8d003,5ba305af6e27322ec5f513606e3e18680a90ad07,5ba305a,chore: archive 11 stale one-off investigation scripts to scripts/oneoff/
+9f69fac35d8b1591f95df180164cac2fca7b0ae5,9a07fde11d5c077ded686a54797535de0baa1369,9a07fde,refactor(P1): share jump-table decode atoms across the enum harvesters
+a3d415ebecfa46e2bf02959d41fab06697562011,543decd294cc00989e61e424381ede0ccdb07ab2,543decd,#46: proto-class detection via the PBCodable superclass chain (ground truth)
+a54dd99da6d7ab512e5378e09872db5ad720cd52,1c2df858b37bf01733f6de89b2559497f9b52a6c,1c2df85,Record writeTo: budget investigation (proposed fixes reverted)
+a5be03218dc8b9c0b6161eec8ab817ca6d35db12,f79924f02983b55837aee319acd5732b8bca5ea3,f79924f,Carve proto/writeto.py + surface per-class extract failures
+a80db117e794b46ac09587da4f8e093956c54bad,3c4afbdee911e5717f718435dafd4e20388d28e8,3c4afbd,ios_decoder: smoot /fb polymorphic decoder + code-quality pass
+a997ac194dfc694dbdeec37845ab9aa1d19b8fd5,488d9f14395a1164dd4566facd7d34bb11144996,488d9f1,Robustness + golden net: self-sufficient standalone extraction; snapshot the field label
+a9df3f52d58691f8fc774e934610a1bb391d1e9b,9081b4a63394cbc2a13fc70e24fdcabf108af0de,9081b4a,swift: key field types by qualified name; collision-safe join (#68)
+aa7ff5d9d952238e3c91f6c6d74674c045898ffe,44f653ee80fdb8e8162a6cea74aa7eba171b2c72,44f653e,arm64cfg: add a structured operand toolkit; retire ad-hoc op_str splits in writeTo
+aaa1002c362aded9cb41fcfa77d0fd6ef14ad5d9,47edd18f4f9a5c55d73fd1b79dd25035137cacd1,47edd18,notes: mark #53 (negadd-bias enum recovery) DONE
+aadc596f200405ccf3db996faafd8244e1ce0629,263c50894f211cef6caf5c72ad51a616e5fbd09c,263c508,test: add relative-selector-base recovery tests
+ac00c68e94531ec342fa53188cbc125f11089e86,4c613b251a4bdddaa3a5a5a8ed4650010f3e94e1,4c613b2,writeTo walk: track mid-body base-register re-loads (fixes 12 misses + 3 mis-bindings)
+ac025197c95e134afe80dab8be9cfc4055adb8d6,e5b5ebe379d9e40b405b22eb0ea85b015794f540,e5b5ebe,docs: trim long-tail essay docstrings to their essential content
+af26b7c2896e6a38dfc46e37ea843a25cd809bfb,b871f3f60102a1722affd1ecb85d8f79e29379f9,b871f3f,swift: decode word-substitution mangling (fixes truncated Google_Protobuf_* names)
+b06d40d72fe5964de54bb4e249a58b6cca70bb07,1690e2152dc597469b3f1dbfa3ad9da7c6550cdc,1690e21,"#51 gate message: distinguish ""no PB messages"" from ""missing .symbols"""
+b0c108cafc95f3c9870d0172b9408b720d9245e4,48d195cc192558f55233ae92c18e7ef7bb69dad0,48d195c,"Remove dead constants, the unused iter_adrp_targets primitive, and a dead test helper"
+b21b2f733fc83276d689457bc1b8c197dd6ffbb6,b30bdb0fba58376368260ba4a6eeef64931325a4,b30bdb0,"#59 cap-helper-family: classify write-helper at the tag-build, not a scan budget"
+b2f642ac063bb7cd404c8e12bfc473f2ae95fb37,8302282de1feb6419b8f38bbc8058d58930121cc,8302282,poc(#42): jump-table arm decoding; withdraw #61 (descriptor-table misdiagnosis)
+b38a00ab7e4aba51d743ee9172b2f133c2ca5627,0f50fcd72d4590d35ec48a798e4a86ac64bad175,0f50fcd,enums: resolve TODO #48 (no action) — relabel enum-split out of REPLACE
+b5d67b82834178c5bfc8b4d065ced79d6a4565cb,1b0f8325492e50de9319c9e8b2dbe2a89cb7d544,1b0f832,poc(#42): element-call filtering + descent; add #61 descriptor-table reader TODO
+b74a828a85d4862cea48393c658f917dcf78c889,714d59ba0dfdf0c4ccd69c8f8f8227dd22964bf7,714d59b,proto_diff: split the 1632-line __init__.py into focused submodules
+b82d74b499581e87eca4f50555d8aaa8cdd3e233,df9913136514a6214336b876a4296e20f58fd4cc,df99131,writeto: bind message fields serialized via property getter (accessor tier 2d)
+b8995d5fe8ff747b82b5eec9386d4e1f6545a62e,6d5028c3967aac5563d6920f7742f403a704c326,6d5028c,snapshot: capture per-message enum value-sets so the golden guards enum recovery
+b9468eeb2b75337a10711c4f74f7b048aa9e6610,b8d3d3515df9a419bcc3e597d37bed2ae55420ac,b8d3d35,Relocate tests/ into macho_extractor/tests/ (step ii)
+b9638188d8ce49b7a81a287acffd54b5967808f4,c8a3a68c56e2ccbdf211399e74e1f239ac3d6b67,c8a3a68,refactor: give the Swift/C++ foreign-serializer modules their own package
+ba8e4df6dd6457ea860f0e84a3b9763e8a08f0aa,9bc91c56a90a189aa40cf258d3ca56869d7cf890,9bc91c5,extractor: flag field-number-0 estimates as NOT wire-accurate (#52)
+bbf1f1a969f6bad17dd91571344510f5e5375ce5,1529965becc3e1cf1eeeb693f84902a977dc7fbd,1529965,census_dictrep_bias: find biased dictRep-only enums (#54 is ACTIVE)
+bf01c8d4b9fdce2032868b586627062363c3a807,343b566c90c1b081dafe39f50b8887d8d658667b,343b566,find_protobuf_for_url: centralize artifact paths in one config module
+c11bfe8a81c5761f34b18750085f48ba3352cc49,d63f4bda48f49bb8cf699f1823e6e52fc086f9b7,d63f4bd,"notes(#45): re-measure post-#42 — NOT resolved (22 fields), residual is INTRINSIC"
+c284e09d5378f7dee931ec928f044a53177cf4b6,a070963c75fa951580ece369826c7a89d7e41036,a070963,swift: unified runtime-_NameMap builder reader (#71 residual)
+c398dc98f0e4c8c2cd9561933ba6fe5bdf5dfc82,30cfa7e95b2d9acff43d78d41d182092cbc24380,30cfa7e,docs: track the 3 notes/*.md files cited from code but excluded by /notes/ ignore
+c40ecdf54a97ba0a361cb75ab84a58b9e47cccad,d994f09894db57583d1efcc00f6210ac08650c5f,d994f09,"Complete apple/ path-anchor updates for probes, validate_ref, and tests"
+c59ef0a44f68059f3f156b81d0c46e6b3790797a,f69f1e27e5e67cd2f3b3e511b15f1319d1a4ac55,f69f1e2,docs: add source-site LIMITATIONS.md breadcrumbs for limitations 5-10
+c6384e165965adc2787d2c4d96d8bae863bf6be2,15bccd567ec5b574d530a198a9ef000875a38b8d,15bccd5,refactor: route _find_field_count through range_from_unsigned_gate too
+c76184ad701973552c7fe4a4c5561b0cac9c64e7,f7f39dc4379252116bf60bec52823950b0e8656b,f7f39dc,"Re-audit the REPLACE heuristics: 20 -> 9, with TODOs for the rest"
+c7b59948d58070198b0a11a3f072f35ffae3f0cc,624c278c395b649b5f2ccd8da1b1d14cd959a461,624c278,"Tidy extractor: remove dead globals, lifecycle ctx caches, add golden net"
+c8d18ff5a04dadadd36206bad79b8d30cf5fadad,aa98eb38b2291662658d3aee83cfb556e9411a2b,aa98eb3,mitm_traffic_parser: move oracle (addon_ios/) to repo root
+cbe5b9ad7ab99470d5e2b45060e3db4531523092,85beb09014c6c63f9e9a8dc86c5152f6d95c8f4c,85beb09,"notes(#42): swap-in attempted, regressed, reverted -> PARK #42"
+cf1c7df2464f9aa74fba817921e5a6685d6837bb,47c1bbfa7a62ac0bf62e765896f32108e9ca60c8,47c1bbf,test: add synthetic ground-truth fixture suite (f1-f10)
+d076c59e7c2301e158232b69585d66fd44366b69,e87fea82e46b73783bad693fbf6bfe8fcdc3f0d6,e87fea8,cpp-descriptor-extract: recover exact .proto from C++ libprotobuf binaries
+d09ee939a8f1058bdfa727cf2d36669b8ebebd3a,56432ee3fce83915d1721dfc85dda0147edc9bdd,56432ee,Omit 4 non-field ivars: GEOMapItemStorage internals + the oversized has-bits struct
+d0c95f41a7a7180018b57e86695c80f6d0d9bd96,2cc9fc8d6e420c646ab4540465c16f131fee72f1,2cc9fc8,"#3 robustness: surface wiring bugs instead of masking them as ""decode failed"""
+d35155efd1620760a810f637e3322c1c6bb1689e,eeb535f4bba048dd27a85b22c8cfd832ae98d81b,eeb535f,Rename subproject folder geo_traffic -> mitm_traffic_parser
+d3565315972216d753712f4274432336062a09df,49f13880754106a1498dd8d5cc3f96ddd771d01d,49f1388,"list-serializers: surface libprotobuf-lite (detect-only), cache-native too"
+d395574d13196d59a3f65c0ddeedac61c281466e,90ea15d0b0272d58b0449266373d7501c66235c6,90ea15d,Register the two #39 compare-chain guards + point to TODO #42
+d404452c70f6a012596fcc8b3d58f7003907db40,76418b2acffd2532cb56a30246ac8f45e36d0080,76418b2,build: relax apple-protobuf-extractor requires-python 3.14 -> 3.10
+d5f81fcea27c771ebfa6d5458a8952a79f30e83b,ea04cb1e3edf424af7d01c690f8eb81a410ba4b8,ea04cb1,enums: read jump-table entries at their true width (fix halfword-table corruption)
+d5fb80cd667662118d4b8211cb7ea2bc8517a232,9f0857271f0f2a856c16649d586d07ddf50bb361,9f08572,disp-rr-tiebreak: precedence by provenance flag; retire REPLACE -> PRINCIPLED
+d680b5cc76220b83699205975c4cb8664e8f1b6e,d086aad05f03c4114876d5d32a8fa1ca22a3d10a,d086aad,proto validation notes: promote clobbered-self pattern (139 fields) to real TODO
+d6b79d1e895d5d451be2f1bec493f0ff93554e0d,ddb94c7294f2ae2d66d2a2fe68d6d1cd36f2d6aa,ddb94c7,heuristic_registry: image-substr RESOLVED -> image-resolve (PRINCIPLED)
+d6f08cd348522680767705ecd3afc93328850c83,2b3e950fcdd9a0e064e5e7c36148a8a66bc804ab,2b3e950,swift: honest + recovered shape-B single-field numbers (#63a)
+d7705aa45f0d444ac6bff7cd6a381d3f278a8111,3af4e6b0f637312d99d3c89f6e47eb4c61fc96cc,3af4e6b,"dyld_cache: resolve framework by identity, not substring-first-wins"
+db0b81361d38b43be7676168be75823d1471c436,c8759873e54661bd44290d453079961d04b6ec84,c875987,Flag incomplete enums + audit/tag bounded-scan cap constants
+dbefe7af35116bcd11e79c3e844b5bbee7246086,167873dcc19e09966f6327b9155c5c6b380f2c50,167873d,Remove dead metaclass-reparse fallback and its public wrapper
+de3934b5cf8b6a93f7d421ef8294c5fe28c34cdd,4865e0e2305c51c49146b1f96bb35b9157bf9ffd,4865e0e,Tier 1: lift pure arm64 helpers from writeto.py into proto/arm64cfg.py
+de710171f82ff7543374f323516f71ceb6f8016e,6832ac910a7ee3d958ba7f591093bdeba47df183,6832ac9,Consolidate the census loaders onto validate_lever (one artifact-path source)
+dfff6a39cab5cba2f22862248ca616574f1de67f,0d8c265ff4a7f1bf21f533c67df91f28acc29f4f,0d8c265,fix: remove stale duplicate copies left by the incomplete serializers/ rename commit
+e0918551651089ef818bf8b15ff3e6eecc61178a,4f270963bcf730474e6dd0390546e77221e4b41a,4f27096,Carve the writeTo write-helper cluster out of extractor.py into proto/write_helpers.py
+e2b4e6074a74d657b5b584068534c44b3c2415fe,de16b898e7999fdff7a2e401f86bfdf477179eda,de16b89,"find_protobuf_for_url: add README, --version, and CLI examples"
+e2dfe66f1ce062a7b0ffaa6237c694a2beea37e3,350fb0667f5afbd04079910a606247bc03161f61,350fb06,"docs: file the residual geo unknown fields as wire-vs-class gaps, not extractor bugs"
+e388cb31ff98ecc3e777067ee79a537f9c84ef67,74f82cbf43f02db76f09b0302c9f51c5982a8a29,74f82cb,refactor(P4): use _bcond_branch_target in _harvest_isolated_compares
+e4d3d769deef53565f14e4e10047fcd87ab6cfb9,d245067e6fc963e73b35a8d051a37eae14dfead4,d245067,"test: retire bookdatastored/DPSubmissionService swift corpora, replace with remindd"
+e53c552b958f5ee97fab48b7e76cbe9beda362fd,9508a60bdeca2c75a97aaf249db19ed53bbe2947,9508a60,Omit manual-array backing-store ivars (_xCount/_xSpace phantoms)
+e53f1373f98d20d5f0a04f70a035bd634e0d2dcc,7bf8f5c4100eade5275fb6d1d06aad23715fdd3b,7bf8f5c,#9: writeTo walk is the authoritative field-number source (remove the confirm-gate)
+e6a9b12c675f86cb6872c76b5d68424d5a241580,85635f3b59e9a9aa1f8e9af06225d07f40db52fe,85635f3,enums: recover large negative-add-bias jump-table segments (#53)
+e726ed41bf24f691c4545da75861e4345edf1198,ab5668fe757364aac9ac08ef31dc4694bc00dd71,ab5668f,"proto_diff: list which fields use an inferred type, by default"
+e73c9d9423b14c42f323e70a8e67250488f6fc83,aa636f089476dfe8f7e0fef47b40bfc0492c9a0e,aa636f0,docs: #12 first synthetic-test batch landed (note remaining gaps)
+e791b64ab6700eb1c057597ac1fe6a93d4243dbe,d17d07a0c8e360d0b3f0dde7eadcc873f2352e1b,d17d07a,enums: correct dictRep-only enum off-by-bias at the pointer-table idiom (#54)
+e839228402acc0b0ebff4be6ffa08af194711cb2,116d58b5cb795d55d6055edcd3a092d40af8dfc6,116d58b,Document the writeTo-vs-readFrom element-type architectural constraint
+ee8f59bf627fbd72e7c843282495bee8059a9012,62e0a46c628d6124519ff5a13ee23c0f39fbee81,62e0a46,find_protobuf_for_url: point artifact paths at iphone8_data/
+ef85a817d75d27dca246364366ac081cbe06e952,6c5bbde37946a24649e8955d6d23af728f703bac,6c5bbde,macho_extractor: relocate input artifacts to iphone8_data/ + centralise paths; docs; enum warning; portability test
+f07550f2f53f56067f20fc34af45828ee2d0e6d3,ac94bdacd8f3cc5ff8d901e7245ff91e7810a191,ac94bda,core-picker: symmetric dispatch-core gate; retire REPLACE -> PRINCIPLED
+f4765c4fa91a8d4727fe5c51c2e2e4d85352fbe1,9380938ec1934c0b4be72bf6e1e882867196406d,9380938,Checkpoint: Mach-O/protobuf extractor — current working state
+f538762e5b2689af1c8d1c5d89d54aecc4b5369b,d474ef0e7f8a9c918119a8ecedb5311eb5badc9f,d474ef0,macho_extractor: complete the package-move step (pyproject + depth fixes + docs)
+f58e9b53f0051eb6a7f26381081a2c33e454d762,fad468482273e715cc8a2caaba094963415eccfd,fad4684,#11 step 5b: carve enum harvesting/naming into proto/enums.py — monolith split complete
+f5ee2f791bbda55342d45e1289f00655735027a2,d09fd17be3fc6e90d5a8d384ef1c52b109aa9d0e,d09fd17,#49: remove dead _fixup_fmt field (REPLACE-audit correction)
+f8c339a394cb32b52cb44ae7db1f3fbde7a75a7b,125b2452e684ebe5c2a81568e35809a2743e3c5c,125b245,proto validation: tool vs reference .proto files + Hopper-verified notes
+f944fae5e2e0beb1d3828db7b8bec0a5382882c3,77e863044eb8c60a0b1f80675a5a9ce24263f401,77e8630,poc(#42): drive off production _locate_dispatch_arms; faithful vs extract_all
+fb631119f9738cd881a569373f3887532329293c,1eeb27a30956ca8f53c1426c939342f2a1691742,1eeb27a,proto_diff: surface two previously-silent uncertain decisions
+fe0149284015bf165cb60fbe69fc85126e537b4b,a28be3b2368735c02eb8d20cbac0cab4d11e433a,a28be3b,docs: correct sint/fixed recoverability claim + TODO #38 (zigzag sint detection)
+ff318e76e7325e9dd5d6dfddc15c035c65992940,ab92663c7f3e6e4e7789dd1f137978ec37574bd6,ab92663,emitter/foreign: make C++ libprotobuf .proto files protoc-compile
+ff8d92a9f6b8c043969c5ca4ca8e693bd2c5dc8d,0d25dac140a8d8a8cf1dcbe025520e01210701e1,0d25dac,"Recover packed repeated scalar/enum fields (label, type, enum names)"
+fff988bb1cd066ac31e31d52d74c0e62c39e90ee,8d70630c240b2e9b1d22cf31c4b26d75dd410bfe,8d70630,find_protobuf_for_url: extract to root subproject + rename from urlproto
